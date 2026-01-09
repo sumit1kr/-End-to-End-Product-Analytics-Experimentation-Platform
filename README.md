@@ -124,7 +124,8 @@ Analysis: Python (pandas, scipy, statsmodels)
 Dashboard: Streamlit + Plotly
 
 Environment: Jupyter Notebook, VS Code
-📂 Project Structure
+
+##📂 Project Structure
 product-analytics-project/
 │
 ├── data/
@@ -187,4 +188,5 @@ http://localhost:8501
 Sumit Kumar
 
 GitHub: https://github.com/sumit1kr
+
 
