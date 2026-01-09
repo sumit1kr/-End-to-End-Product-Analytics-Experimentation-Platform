@@ -125,14 +125,15 @@ Dashboard: Streamlit + Plotly
 
 Environment: Jupyter Notebook, VS Code
 
-##📂 Project Structure
+## 📂 Project Structure
+
+```text
 product-analytics-project/
 │
 ├── data/
-│   └── raw/                        # Generated CSV datasets
-│       └── product_analystic.ipynb
-|
-├── sql/                            # Analytics SQL queries
+│   └── raw/                     # Generated CSV datasets (local only)
+│
+├── sql/                          # Analytics SQL queries
 │   ├── 01_sanity_checks.sql
 │   ├── 02_user_funnel.sql
 │   ├── 03_conversion_rates.sql
@@ -140,19 +141,25 @@ product-analytics-project/
 │   └── 05_ab_test.sql
 │
 ├── analysis/
-│   └── product_analystic.ipynb     # Statistical testing
+│   └── product_analytics.ipynb   # Data generation + statistical testing
 │
 ├── dashboard/
-│   ├── app.py                      # Streamlit dashboard
+│   ├── app.py                    # Streamlit dashboard
 │   ├── requirements.txt
-│   └── screenshots/
+│   └── screenshots/              # Dashboard screenshots
 │
-├── README.md
+├── .gitignore
+└── README.md
+
+
+
 
 ▶️ How to Run the Project Locally
-1️⃣ Clone the Repository
-git clone https://github.com/sumit1kr/-End-to-End-Product-Analytics-Experimentation-Platform.git
-cd <repository-name>
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sumit1kr/End-to-End-Product-Analytics-Experimentation-Platform.git
+cd End-to-End-Product-Analytics-Experimentation-Platform
 
 2️⃣ Install Dependencies
 pip install -r dashboard/requirements.txt
@@ -188,5 +195,6 @@ http://localhost:8501
 Sumit Kumar
 
 GitHub: https://github.com/sumit1kr
+
 
 
