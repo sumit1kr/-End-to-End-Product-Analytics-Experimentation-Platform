@@ -151,7 +151,7 @@ product-analytics-project/
 ├── .gitignore
 └── README.md
 
-
+```
 
 
 ▶️ How to Run the Project Locally
@@ -160,10 +160,11 @@ product-analytics-project/
 ```bash
 git clone https://github.com/sumit1kr/End-to-End-Product-Analytics-Experimentation-Platform.git
 cd End-to-End-Product-Analytics-Experimentation-Platform
-
+```
 2️⃣ Install Dependencies
+```bash
 pip install -r dashboard/requirements.txt
-
+```
 3️⃣ Set Up PostgreSQL
 
 Create a database named: product_analytics
@@ -193,8 +194,9 @@ http://localhost:8501
 👤 Author
 
 Sumit Kumar
-
+```bash
 GitHub: https://github.com/sumit1kr
+```                
 
 
 
