@@ -183,20 +183,21 @@ The app will open at:
 http://localhost:8501
 
 🎯 What This Project Demonstrates
-
+```text
 ✔ End-to-end analytics ownership
 ✔ Large-scale event data handling
 ✔ Advanced SQL (funnels, drop-offs, aggregations)
 ✔ Statistical experiment validation
 ✔ Business-oriented insights and recommendations
 ✔ Professional-grade dashboarding
-
+```
 👤 Author
 
 Sumit Kumar
 ```bash
 GitHub: https://github.com/sumit1kr
 ```                
+
 
 
 
